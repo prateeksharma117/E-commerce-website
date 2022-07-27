@@ -1,0 +1,290 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background-color:white;
+}
+.topbg{
+    background-color:cadetblue;
+    max-width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.mark a:hover{
+    color:black;
+    transition: 0.5;
+}
+.logo{
+    padding-right: 10px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 20px ;
+}
+a{
+    text-decoration:wavy;
+    color: white;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;
+}
+.container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.column1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.column1 img{
+   
+    max-width: 100%;
+    padding-right: 50px 0;    
+    
+}
+.column1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:20px 0 ;
+    padding-right: 100px; 
+
+}
+.explore{
+    display: inline-block;
+    background:crimson;
+    color: white ;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.4s;
+}
+.explore:hover{
+    background:black;
+}
+
+.cat{
+    margin: 70px 0;
+}
+.column3{
+
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom:25px ;
+}
+.column3 img{
+   width: 100%;
+}
+.small-cat{
+
+    margin-block-end: auto;
+    padding-left:25px ;
+    padding-right: 25px;
+}
+.raw{
+    padding-right: 60px; ;
+    flex-basis:20%;
+    padding: 10px;
+    min-width:200px ;
+    margin-bottom:50px ;
+}
+.column4 img{
+
+    margin-top: 40px;
+    padding-right:70px; 
+    width: 100%;
+}
+.column4:hover{
+    transform: translate(-5px) ;
+    transition: 0.1s;
+}
+.garage h2{
+    margin-bottom: 10px;
+    color: black;
+}
+.garage{
+    color: black;
+}
+.title{
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+}
+.title::after{
+    
+    content: '';
+    background:darkred;
+    width: 175px;
+    height: 5px;
+    border-radius:5px ;
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    transform: translateX(-50);
+}
+h4{
+    
+    font-weight: normal;
+}
+.coloum4 p{
+    font-size: 90px;
+}
+
+.title{
+    margin-top: 40px;
+}
+.column4 img{
+    margin-top: 40px;
+    padding-right:10px; 
+    width: 100%;
+}
+.column2 img{
+    padding-left: 80px;
+    margin-top: 1px ;
+    float: left;
+    width:400px;
+  
+}
+.column2{
+    
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.column2 h1{
+padding-left: 40%;
+font-size: 30px;
+line-height: 60px;
+margin: 10px 0;
+}
+.column2 p{
+    padding-left: 40%;
+   margin: auto;
+   padding-top: 100px;
+}
+.offer{
+    margin-top: 30px;
+    padding-top: 50px;
+    background: cadetblue;
+}
+.parama{
+    padding-left: 40%;
+    padding-bottom: 10%;
+}
+.buy
+{
+    padding-right: ;
+}
+
+footer
+{
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #1c8f89,#1e9e96);
+    color: aliceblue;
+    padding: 10px 0 30px;
+    border-top-left-radius:125px ;
+    font-size: 13px;
+    line-height: 20px;
+}
+.customer-service
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.basic
+{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.basic p
+{
+    color:white;
+}
+.footer-logo
+{
+    width: 100px;
+}
+.basic h3
+{
+    width: fit-content;
+    margin-bottom: 20px;
+    position: relative;
+}
+ul li
+{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul li a:hover
+{
+    color: cadetblue;
+}
+.end
+{
+    position: relative;
+    padding: 20px;
+    top: 20px;
+    left: 10rem;
+}
+.end:hover
+{
+    color: cadetblue;
+}
+.last
+{
+    color: aliceblue;
+    position: relative;
+    float: right;
+    top:20px ;
+    right: 20rem;
+}
+.footer-img img
+{
+    padding: 10px;
+    position: relative;
+    width: 60px;
+    top: 15px;
+    left:11rem ;
+}
+

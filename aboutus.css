@@ -1,0 +1,153 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+    background-color:rgb(226, 230, 232);
+    background-color: rgba(240, 239, 237, 0.831);
+}
+.topbg{
+    background-color:cadetblue;
+    max-width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.mark a:hover{
+    color:black;
+    transition: 0.5;
+}
+.logo{
+    padding-right: 10px;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    position: relative;
+    right: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 20px ;
+}
+a{
+   text-decoration:wavy;
+   color: white;
+}
+
+.aboutus img
+{
+    position: relative;
+    width: 28.5rem;
+    height: 38.9rem;
+}
+.p h1
+{
+    position: absolute;
+    bottom: 16rem;
+    left: 65rem;
+    font-size: 4rem;
+    color: white;
+    transition: 0.5;
+}
+.p h2
+{
+    position: absolute;
+    bottom: 16rem;
+    left: 33rem;
+    font-size: 4rem;
+    color: white;
+    transition: 0.5;
+}
+.p h3
+{
+    position: absolute;
+    bottom: 16rem;
+    left: 5rem;
+    font-size: 4rem;
+    color: white;
+    transition: 0.5;
+}
+.p h1:hover,.p h2:hover,.p h3:hover
+{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.joinus img
+{
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+    height: 30rem;
+    width: 35rem;
+    transition: .5s;
+}
+.joinus h1
+{
+    font-size: 3rem;
+    position: relative;
+    left: 25rem;
+    text-align: center;
+    bottom: 20rem;
+}
+.joinus button
+{
+    position: relative;
+    width: 8rem;
+    height:2.7rem;
+    left: 64rem;
+    bottom: 22rem;
+    border-radius: 15px;
+    z-index: 1;
+    overflow: hidden;
+}
+.joinus button::before 
+{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 15px;
+background-color:crimson;
+width: 100%;
+height: 100%;
+transform: translateX(-200%);
+transition: all 1s linear;
+}
+.joinus button:hover:before 
+{
+transform: translateX(100%);
+z-index: -1;
+}
+.joinus button a
+{
+    font-size: 1.5rem;
+    color: black;
+}
+.joinus p
+{
+    text-align: center;
+    position: relative;
+    left: 23rem;
+    bottom: 12rem;
+    border-radius: 15px;
+}
+.joinus h1:hover
+{
+    transform: scale(1.1);
+}
+.joinus img:hover
+{
+    background: linear-gradient(to right,#42275a,#734b6d);
+}
